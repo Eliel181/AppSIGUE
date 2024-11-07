@@ -1,0 +1,51 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Colores base -->
+    <Color x:Key="PrimaryColor">#2C3E50</Color>
+    <!-- Azul marino oscuro - Color principal -->
+    <Color x:Key="SecondaryColor">#3498DB</Color>
+    <!-- Azul claro - Color secundario -->
+    <Color x:Key="AccentColor">#E74C3C</Color>
+    <!-- Rojo suave - Para acentos y alertas -->
+
+    <!-- Colores de fondo -->
+    <Color x:Key="BackgroundPrimary">#FFFFFF</Color>
+    <!-- Blanco - Fondo principal -->
+    <Color x:Key="BackgroundSecondary">#F5F6FA</Color>
+    <!-- Gris muy claro - Fondo secundario -->
+    <Color x:Key="BackgroundTertiary">#EDF2F7</Color>
+    <!-- Gris azulado claro - Paneles y tarjetas -->
+
+    <!-- Colores de texto -->
+    <Color x:Key="TextPrimary">#2D3436</Color>
+    <!-- Casi negro - Texto principal -->
+    <Color x:Key="TextSecondary">#636E72</Color>
+    <!-- Gris oscuro - Texto secundario -->
+    <Color x:Key="TextLight">#B2BEC3</Color>
+    <!-- Gris claro - Texto deshabilitado -->
+
+    <!-- Colores de estado -->
+    <Color x:Key="SuccessColor">#27AE60</Color>
+    <!-- Verde - Éxito -->
+    <Color x:Key="WarningColor">#F1C40F</Color>
+    <!-- Amarillo - Advertencia -->
+    <Color x:Key="ErrorColor">#E74C3C</Color>
+    <!-- Rojo - Error -->
+    <Color x:Key="InfoColor">#3498DB</Color>
+    <!-- Azul - Información -->
+
+    <!-- Convertir colores a SolidColorBrush para uso directo -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="BackgroundPrimaryBrush" Color="{StaticResource BackgroundPrimary}"/>
+    <SolidColorBrush x:Key="BackgroundSecondaryBrush" Color="{StaticResource BackgroundSecondary}"/>
+    <SolidColorBrush x:Key="BackgroundTertiaryBrush" Color="{StaticResource BackgroundTertiary}"/>
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimary}"/>
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondary}"/>
+    <SolidColorBrush x:Key="TextLightBrush" Color="{StaticResource TextLight}"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}"/>
+    <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}"/>
+    <SolidColorBrush x:Key="InfoBrush" Color="{StaticResource InfoColor}"/>
+</ResourceDictionary>

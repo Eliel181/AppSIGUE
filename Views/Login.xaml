@@ -1,0 +1,116 @@
+﻿<Window x:Class="Views.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Views"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Border CornerRadius="10" 
+            Background="{StaticResource BackgroundPrimaryBrush}"
+            BorderBrush="{StaticResource BackgroundTertiaryBrush}"
+            BorderThickness="1"
+            Effect="{DynamicResource MaterialDesignElevationShadow2}">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Panel Izquierdo - Imagen/Banner -->
+            <Border Grid.Column="0" 
+                    Background="{StaticResource PrimaryBrush}" 
+                    CornerRadius="10 0 0 10">
+                <Grid>
+                    <StackPanel VerticalAlignment="Center" 
+                              HorizontalAlignment="Center" 
+                              Margin="20">
+                        <Image Source="/Assets/school-logo.png" 
+                               Width="150" 
+                               Height="150"
+                               Margin="0 0 0 20"/>
+                        <TextBlock Text="Nombre de la Institución" 
+                                 Foreground="White" 
+                                 FontSize="24" 
+                                 FontWeight="Bold" 
+                                 TextAlignment="Center"/>
+                        <TextBlock Text="Sistema de Gestión Académica" 
+                                 Foreground="White" 
+                                 FontSize="16" 
+                                 TextAlignment="Center" 
+                                 Margin="0 10 0 0"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!-- Panel Derecho - Formulario -->
+            <StackPanel Grid.Column="1" 
+                        Margin="30,0"
+                        VerticalAlignment="Center">
+
+                <TextBlock Text="Bienvenido" 
+                           Foreground="{StaticResource TextPrimaryBrush}" 
+                           FontSize="28" 
+                           FontWeight="Bold" 
+                           Margin="0 0 0 30"/>
+
+                <!-- Usuario -->
+                <TextBlock Text="Usuario" 
+                           Foreground="{StaticResource TextSecondaryBrush}" 
+                           Margin="0 0 0 5"/>
+                <Border Background="{StaticResource BackgroundSecondaryBrush}"
+                        CornerRadius="5"
+                        Margin="0 0 0 15">
+                    <TextBox BorderThickness="0"
+                             Padding="10"
+                             Background="Transparent"
+                             Height="40"/>
+                </Border>
+
+                <!-- Contraseña -->
+                <TextBlock Text="Contraseña" 
+                           Foreground="{StaticResource TextSecondaryBrush}" 
+                           Margin="0 0 0 5"/>
+                <Border Background="{StaticResource BackgroundSecondaryBrush}"
+                        CornerRadius="5"
+                        Margin="0 0 0 20">
+                    <PasswordBox BorderThickness="0"
+                                Padding="10"
+                                Background="Transparent"
+                                Height="40"/>
+                </Border>
+
+                <!-- Recordarme -->
+                <CheckBox Content="Recordar mis datos" 
+                          Foreground="{StaticResource TextSecondaryBrush}"
+                          Margin="0 0 0 20"/>
+
+                <!-- Botón Iniciar Sesión -->
+                <Button Content="Iniciar Sesión"
+                        Background="{StaticResource SecondaryBrush}"
+                        Foreground="White"
+                        Height="40"
+                        BorderThickness="0"
+                        Margin="0 0 0 15"/>
+
+                <!-- Enlace Olvidé mi contraseña -->
+                <TextBlock Text="¿Olvidaste tu contraseña?"
+                           Foreground="{StaticResource SecondaryBrush}"
+                           TextAlignment="Center"
+                           Cursor="Hand"/>
+
+                <!-- Botón cerrar -->
+                <Button Content="×"
+                        Width="30"
+                        Height="30"
+                        BorderThickness="0"
+                        Background="Transparent"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Right"
+                        Margin="0,-250,0,0"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
