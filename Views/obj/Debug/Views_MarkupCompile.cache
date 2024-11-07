@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\leokg\Source\Repos\AppSIGUE\Views\obj\Debug\
+=======
+D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\
+>>>>>>> main
 Views
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\leokg\Source\Repos\AppSIGUE\Views\App.xaml
+=======
+D:\HIA\proyectos\AppSIGUE\Views\App.xaml
+>>>>>>> main
 1219584333
 
 6-502434485
