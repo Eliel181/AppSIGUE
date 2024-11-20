@@ -4,12 +4,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{BC42D6C8-941A-47BC-85F9-08151D090B79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{987F9023-BF22-4B4C-AE92-AD94C54427D9} = {987F9023-BF22-4B4C-AE92-AD94C54427D9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{ABB326EB-83BD-4A26-BDBC-38940FC84A3C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{987F9023-BF22-4B4C-AE92-AD94C54427D9} = {987F9023-BF22-4B4C-AE92-AD94C54427D9}
+		{BC42D6C8-941A-47BC-85F9-08151D090B79} = {BC42D6C8-941A-47BC-85F9-08151D090B79}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{987F9023-BF22-4B4C-AE92-AD94C54427D9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Views\Views.csproj", "{41B654F4-8114-4A0B-A72F-101FA3C5D27A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{987F9023-BF22-4B4C-AE92-AD94C54427D9} = {987F9023-BF22-4B4C-AE92-AD94C54427D9}
+		{ABB326EB-83BD-4A26-BDBC-38940FC84A3C} = {ABB326EB-83BD-4A26-BDBC-38940FC84A3C}
+		{BC42D6C8-941A-47BC-85F9-08151D090B79} = {BC42D6C8-941A-47BC-85F9-08151D090B79}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

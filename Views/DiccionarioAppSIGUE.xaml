@@ -2,37 +2,18 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!-- Colores base -->
     <Color x:Key="PrimaryColor">#2C3E50</Color>
-    <!-- Azul marino oscuro - Color principal -->
     <Color x:Key="SecondaryColor">#3498DB</Color>
-    <!-- Azul claro - Color secundario -->
     <Color x:Key="AccentColor">#E74C3C</Color>
-    <!-- Rojo suave - Para acentos y alertas -->
-
-    <!-- Colores de fondo -->
     <Color x:Key="BackgroundPrimary">#FFFFFF</Color>
-    <!-- Blanco - Fondo principal -->
     <Color x:Key="BackgroundSecondary">#F5F6FA</Color>
-    <!-- Gris muy claro - Fondo secundario -->
     <Color x:Key="BackgroundTertiary">#EDF2F7</Color>
-    <!-- Gris azulado claro - Paneles y tarjetas -->
-
-    <!-- Colores de texto -->
     <Color x:Key="TextPrimary">#2D3436</Color>
-    <!-- Casi negro - Texto principal -->
     <Color x:Key="TextSecondary">#636E72</Color>
-    <!-- Gris oscuro - Texto secundario -->
     <Color x:Key="TextLight">#B2BEC3</Color>
-    <!-- Gris claro - Texto deshabilitado -->
-
-    <!-- Colores de estado -->
     <Color x:Key="SuccessColor">#27AE60</Color>
-    <!-- Verde - Éxito -->
     <Color x:Key="WarningColor">#F1C40F</Color>
-    <!-- Amarillo - Advertencia -->
     <Color x:Key="ErrorColor">#E74C3C</Color>
-    <!-- Rojo - Error -->
     <Color x:Key="InfoColor">#3498DB</Color>
-    <!-- Azul - Información -->
 
     <!-- Convertir colores a SolidColorBrush para uso directo -->
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
@@ -48,4 +29,93 @@
     <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}"/>
     <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}"/>
     <SolidColorBrush x:Key="InfoBrush" Color="{StaticResource InfoColor}"/>
+
+
+    <!-- Label Style -->
+    <Style x:Key="LabelStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource TextSecondaryBrush}"/>
+        <Setter Property="Margin" Value="0,10,0,5"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <!-- TextBox Style -->
+    <Style x:Key="TextBoxStyle" TargetType="TextBox">
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="BorderBrush" Value="{StaticResource SecondaryBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Background" Value="{StaticResource BackgroundTertiaryBrush}"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+
+    <!-- PasswordBox Style -->
+    <Style x:Key="PasswordBoxStyle" TargetType="PasswordBox">
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="BorderBrush" Value="{StaticResource SecondaryBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Background" Value="{StaticResource BackgroundTertiaryBrush}"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+
+    <!-- DataGrid Style -->
+    <Style x:Key="DataGridStyle" TargetType="DataGrid">
+        <Setter Property="Background" Value="{StaticResource BackgroundTertiaryBrush}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource SecondaryBrush}"/>
+        <Setter Property="AlternatingRowBackground" Value="{StaticResource BackgroundSecondaryBrush}"/>
+        <Setter Property="RowBackground" Value="White"/>
+    </Style>
+
+    <!-- ComboBox Style -->
+    <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="BorderBrush" Value="{StaticResource SecondaryBrush}"/>
+        <Setter Property="Background" Value="{StaticResource BackgroundTertiaryBrush}"/>
+    </Style>
+
+    <!-- Button Styles -->
+    <Style x:Key="BaseButtonStyle" TargetType="Button">
+        <Setter Property="Padding" Value="15,10"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+
+    <Style x:Key="PrimaryButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+        <Setter Property="Background" Value="{StaticResource SecondaryBrush}"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="SuccessButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+        <Setter Property="Background" Value="{StaticResource SuccessBrush}"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="ErrorButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+        <Setter Property="Background" Value="{StaticResource ErrorBrush}"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="SecondaryButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+        <Setter Property="Background" Value="{StaticResource BackgroundSecondaryBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextSecondaryBrush}"/>
+    </Style>
+
+    <!-- Section Title Style -->
+    <Style x:Key="SectionTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Foreground" Value="{StaticResource TextPrimaryBrush}"/>
+        <Setter Property="Margin" Value="0,0,0,15"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <!-- CheckBox Style -->
+    <Style x:Key="CheckBoxStyle" TargetType="CheckBox">
+        <Setter Property="Foreground" Value="{StaticResource TextSecondaryBrush}"/>
+    </Style>
+
+    <DropShadowEffect x:Key="DropShadowEffect"
+                  BlurRadius="10"
+                  Direction="270"
+                  ShadowDepth="3"
+                  Opacity="0.2"/>
 </ResourceDictionary>
