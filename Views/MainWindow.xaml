@@ -5,8 +5,231 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Sistema de Gestión Académica" 
+        Height="900" 
+        Width="1500"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource BackgroundSecondaryBrush}">
+    <Window.Resources>
+        <!-- Estilo para los botones del menú -->
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="Margin" Value="15,2"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="20,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                            Background="{TemplateBinding Background}" 
+                            CornerRadius="8">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image x:Name="icon" 
+                                   Width="20" 
+                                   Height="20" 
+                                   Margin="0,0,10,0"/>
+                                <ContentPresenter Grid.Column="1" 
+                                            VerticalAlignment="Center"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" 
+                                    TargetName="border" 
+                                    Value="#32FFFFFF"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" 
+                                    TargetName="border" 
+                                    Value="#50FFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Estilo para el contenedor de páginas -->
+        <Style x:Key="PageContainerStyle" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Margin" Value="20"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="10" 
+                                 ShadowDepth="1" 
+                                 Direction="270" 
+                                 Color="#15000000"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Estilo para los botones de control de ventana -->
+        <Style x:Key="WindowControlButton" TargetType="Button">
+            <Setter Property="Width" Value="46"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="#99FFFFFF"/>
+            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                        VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#22FFFFFF"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#44FFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Estilo especial para el botón de cerrar -->
+        <Style x:Key="CloseButtonStyle" TargetType="Button" BasedOn="{StaticResource WindowControlButton}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FFE81123"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FFB1121A"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
     <Grid>
-        
+
+        <!-- Definición de columnas -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Menú Lateral -->
+        <Border Background="{DynamicResource PrimaryBrush}" 
+            CornerRadius="0,15,15,0">
+            <DockPanel>
+                <!-- Cabecera del menú -->
+                <StackPanel DockPanel.Dock="Top" 
+                       Margin="0,20,0,40">
+                    <Image Source="/Images/Logo.png" 
+                       Height="90" 
+                       Width="90" 
+                       Margin="0,10"/>
+                    <TextBlock Text="Sistema Académico" 
+                          Foreground="White" 
+                          FontSize="20" 
+                          FontWeight="SemiBold" 
+                          HorizontalAlignment="Center"/>
+                    <TextBlock Text="Gestión Educativa" 
+                          Foreground="#AAFFFFFF" 
+                          FontSize="14" 
+                          HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <!-- Botones del menú -->
+                <StackPanel>
+                    <Button Style="{StaticResource MenuButtonStyle}"
+                        x:Name="btnUsuarios"
+                        Content="Usuarios"
+                        Click="btnUsuarios_Click"/>
+                    <Button Style="{StaticResource MenuButtonStyle}"
+                        x:Name="btnAlumnos"
+                        Content="Alumnos"/>
+                    <Button Style="{StaticResource MenuButtonStyle}"
+                        x:Name="btnCursos"
+                        Content="Cursos"/>
+
+
+
+                </StackPanel>
+
+                <!-- Perfil de usuario -->
+                <Border DockPanel.Dock="Bottom" 
+                    Background="#22FFFFFF" 
+                    Margin="15,20" 
+                    Padding="15" 
+                    CornerRadius="8">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Ellipse Name="FotoUsuario" Height="75" Width="75" Grid.ColumnSpan="2" >
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="/Images/usuario.png"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+
+                        <StackPanel Grid.Column="1" 
+                               Margin="-12,357,-12,0"
+                               VerticalAlignment="Top">
+                            <TextBlock x:Name="txtUsuarioActual" Text="Nombre Usuario" 
+                                 Foreground="White" 
+                                 FontWeight="SemiBold" Height="23" Width="90"/>
+                            <TextBlock x:Name="txtRolActual" Text="Administrador" 
+                                 Foreground="#AAFFFFFF" 
+                                 FontSize="12" Width="90"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </DockPanel>
+        </Border>
+
+        <!-- Contenedor de Páginas -->
+        <Border Grid.Column="1" 
+            Style="{StaticResource PageContainerStyle}">
+            <Grid>
+                <!-- Barra superior -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Encabezado de página -->
+                <Grid Margin="20,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel/>
+
+                    <StackPanel Grid.Column="1" 
+                          Orientation="Horizontal" 
+                          VerticalAlignment="Center">
+
+                    </StackPanel>
+                </Grid>
+
+                <!-- Contenido de la página -->
+                <Frame x:Name="MainFrame" 
+                   Grid.Row="1" 
+                   NavigationUIVisibility="Hidden"
+                   Margin="20,0"
+                   Source="/Views;component/Pages/Usuarios.xaml"/>
+            </Grid>
+        </Border>
     </Grid>
 </Window>
