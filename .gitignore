@@ -1,0 +1,49 @@
+# Archivos de configuración de Visual Studio
+.vs/
+.vscode/
+.idea/
+# .user y .userosscache son archivos específicos de Visual Studio que no deben ser versionados
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Archivos generados por la compilación
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]istro/
+[Dd]ebug_x86/
+[Dd]ebug_x64/
+[Dd]Release/
+[Dd]Release_x86/
+[Dd]Release_x64/
+bin/
+obj/
+
+# Archivos específicos de sistema operativo
+# Archivos de thumbnail y cache del sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Archivos de configuración de compilación en .NET
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de dependencias de paquetes NuGet
+# Si usas paquetes NuGet, es común que la carpeta "packages" esté en el directorio raíz del proyecto.
+packages/
+
+# Archivos de configuración de usuario
+# Estos archivos contienen configuraciones específicas de usuario que no deben ser compartidas.
+*.dbmdl
+
+# Archivos temporales
+*.log
+*.vspscc
+# Algunos archivos de respaldo de Visual Studio
+*.bak
+*.tmp
+
+# Archivos de configuración de ReSharper
+_ReSharper/
+resharper/
