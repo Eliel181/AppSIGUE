@@ -47,3 +47,6 @@ packages/
 # Archivos de configuración de ReSharper
 _ReSharper/
 resharper/
+
+# Cadena de Conexion
+Models/ConnectionSQL.cs
