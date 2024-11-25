@@ -5,7 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Views"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="800">
+        Title="Login" Height="450" Width="800" WindowStyle="None"  ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    <Window.Resources>
+        <!-- Sombra para el borde -->
+        <DropShadowEffect x:Key="MaterialDesignElevationShadow2" 
+                         BlurRadius="15" 
+                         Direction="270" 
+                         ShadowDepth="3" 
+                         Color="#CCCCCC"/>
+    </Window.Resources>
+
     <Border CornerRadius="10" 
             Background="{StaticResource BackgroundPrimaryBrush}"
             BorderBrush="{StaticResource BackgroundTertiaryBrush}"
@@ -18,6 +31,13 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
+            <Button x:Name="btnCerrar" Content="X"
+                Width="30"
+                Height="30"
+           
+                BorderThickness="0"
+                Background="Red"
+                Foreground="{StaticResource TextSecondaryBrush}" Grid.Column="1" Margin="333,0,0,402" Click="btnCerrar_Click"/>
             <!-- Panel Izquierdo - Imagen/Banner -->
             <Border Grid.Column="0" 
                     Background="{StaticResource PrimaryBrush}" 
@@ -26,11 +46,20 @@
                     <StackPanel VerticalAlignment="Center" 
                               HorizontalAlignment="Center" 
                               Margin="20">
-                        <Image Source="/Assets/school-logo.png" 
-                               Width="150" 
-                               Height="150"
-                               Margin="0 0 0 20"/>
-                        <TextBlock Text="Nombre de la Institución" 
+                        <Ellipse x:Name="FotoUsuario" Height="160" Stroke="#CCF7DDDD" StrokeThickness="5" Width="160" RenderTransformOrigin="0.5,0.5">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="/Images/Logo.png"/>
+                            </Ellipse.Fill>
+                            <Ellipse.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-0.698"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                        <TextBlock Text="SIGUE" 
                                  Foreground="White" 
                                  FontSize="24" 
                                  FontWeight="Bold" 
@@ -49,6 +78,13 @@
                         Margin="30,0"
                         VerticalAlignment="Center">
 
+                <!-- Botón cerrar -->
+
+                <!-- Botón cerrar -->
+
+                <!-- Botón cerrar -->
+
+
                 <TextBlock Text="Bienvenido" 
                            Foreground="{StaticResource TextPrimaryBrush}" 
                            FontSize="28" 
@@ -62,10 +98,10 @@
                 <Border Background="{StaticResource BackgroundSecondaryBrush}"
                         CornerRadius="5"
                         Margin="0 0 0 15">
-                    <TextBox BorderThickness="0"
+                    <TextBox x:Name="txtUsuario" BorderThickness="0"
                              Padding="10"
                              Background="Transparent"
-                             Height="40"/>
+                             Height="40" GotKeyboardFocus="txtUsuario_GotKeyboardFocus" LostKeyboardFocus="txtUsuario_LostKeyboardFocus"/>
                 </Border>
 
                 <!-- Contraseña -->
@@ -75,41 +111,23 @@
                 <Border Background="{StaticResource BackgroundSecondaryBrush}"
                         CornerRadius="5"
                         Margin="0 0 0 20">
-                    <PasswordBox BorderThickness="0"
+                    <PasswordBox x:Name="psbPassword" BorderThickness="0"
                                 Padding="10"
                                 Background="Transparent"
-                                Height="40"/>
+                                Height="40" GotKeyboardFocus="psbPassword_GotKeyboardFocus" LostKeyboardFocus="psbPassword_LostKeyboardFocus"/>
                 </Border>
 
-                <!-- Recordarme -->
-                <CheckBox Content="Recordar mis datos" 
-                          Foreground="{StaticResource TextSecondaryBrush}"
-                          Margin="0 0 0 20"/>
+
 
                 <!-- Botón Iniciar Sesión -->
-                <Button Content="Iniciar Sesión"
+                <Button  x:Name="btnIngresar" Content="Iniciar Sesión"
                         Background="{StaticResource SecondaryBrush}"
                         Foreground="White"
                         Height="40"
                         BorderThickness="0"
-                        Margin="0 0 0 15"/>
+                        Margin="0 0 0 15" Click="btnIngresar_Click"/>
 
-                <!-- Enlace Olvidé mi contraseña -->
-                <TextBlock Text="¿Olvidaste tu contraseña?"
-                           Foreground="{StaticResource SecondaryBrush}"
-                           TextAlignment="Center"
-                           Cursor="Hand"/>
 
-                <!-- Botón cerrar -->
-                <Button Content="×"
-                        Width="30"
-                        Height="30"
-                        BorderThickness="0"
-                        Background="Transparent"
-                        Foreground="{StaticResource TextSecondaryBrush}"
-                        VerticalAlignment="Top"
-                        HorizontalAlignment="Right"
-                        Margin="0,-250,0,0"/>
             </StackPanel>
         </Grid>
     </Border>

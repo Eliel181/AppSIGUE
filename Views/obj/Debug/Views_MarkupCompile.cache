@@ -4,17 +4,40 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\leokg\Source\Repos\AppSIGUE\Views\obj\Debug\
+=======
+D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\
+>>>>>>> main
+>>>>>>> 2991b877a5831555baca4335507286225828ecbc
+>>>>>>> b1bf59bffc3ebddba9744324c0648d87184fef8f
 Views
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+C:\Users\leokg\source\repos\AppSIGUE\Views\App.xaml
+51190679524
+=======
+<<<<<<< HEAD
+C:\Users\leokg\Source\Repos\AppSIGUE\Views\App.xaml
+=======
+>>>>>>> b1bf59bffc3ebddba9744324c0648d87184fef8f
 D:\HIA\proyectos\AppSIGUE\Views\App.xaml
 1219584333
+>>>>>>> 2991b877a5831555baca4335507286225828ecbc
 
-6-502434485
-13-1310406943
-MainWindow.xaml;
+8-1125118336
+16-1321072760
+DiccionarioAppSIGUE.xaml;Login.xaml;MainWindow.xaml;Mensaje.xaml;Pages\Usuarios.xaml;
 
-True
+False
 
