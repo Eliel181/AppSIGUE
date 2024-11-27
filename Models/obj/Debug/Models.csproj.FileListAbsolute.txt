@@ -7,3 +7,12 @@ C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.csproj.CoreCompileI
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.csproj.CopyComplete
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.dll
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.pdb
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Models.dll
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Models.pdb
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Entities.dll
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Entities.pdb
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.csproj.Up2Date
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.dll
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.pdb

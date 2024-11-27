@@ -1,0 +1,143 @@
+﻿<Page x:Class="Views.Pages.Imagenes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="900"
+      Title="Imagenes">
+
+    <Grid Background="{StaticResource BackgroundSecondaryBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header más compacto -->
+        <Border Grid.Row="0" Background="{StaticResource PrimaryBrush}" Padding="15,10">
+            <TextBlock Text="Gestión de Imagenes" 
+                  Foreground="White" 
+                  FontSize="20" 
+                  FontWeight="SemiBold"/>
+        </Border>
+
+        <!-- Main Content con márgenes reducidos -->
+        <Grid Grid.Row="1" Margin="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="320"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Panel de entrada reducido -->
+            <Border Grid.Column="0" 
+                Background="{StaticResource BackgroundPrimaryBrush}" 
+                CornerRadius="8" 
+                Margin="0,0,15,0" 
+                Padding="15">
+                <StackPanel>
+                    <!-- Foto de perfil más pequeña -->
+                    <Grid Height="200"  Margin="0,0,0,10">
+                        <Rectangle x:Name="eFoto" Stroke="{StaticResource ColorBordeVentana}" StrokeThickness="2" RadiusX="10" RadiusY="10">
+                            <Rectangle.Fill>
+                                <ImageBrush Stretch="Uniform" ImageSource="/Images/equipo.jpg" />
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </Grid>
+
+                    <!-- Botón de foto más pequeño -->
+                    <Button x:Name="btnCambiarFoto" 
+                        Content="Cambiar Foto" 
+                        Style="{StaticResource PrimaryButtonStyle}" 
+                        Template="{StaticResource ButtonPictureTemplate}"
+                        Height="35"
+                        Width="150"
+                        Click="btnExaminarFoto_Click" 
+                        HorizontalAlignment="Center" 
+                        Margin="0,0,0,10"/>
+
+                    <!-- Campos de formulario más compactos -->
+                    <TextBlock Text="ID" Style="{StaticResource LabelStyle}" Margin="0,5,0,2"/>
+                    <TextBox x:Name="txtId" 
+                        Style="{StaticResource TextBoxStyle}"
+                        Height="36"
+                        IsReadOnly="True"/>
+
+                    <TextBlock Text="Titulo" Style="{StaticResource LabelStyle}" Margin="0,5,0,2"/>
+                    <TextBox x:Name="txtTitulo" Style="{StaticResource TextBoxStyle}" Height="36"/>
+
+
+                    <!-- Botones de acción más pequeños y juntos -->
+                    <StackPanel Orientation="Horizontal" Margin="0,15,0,0" HorizontalAlignment="Center">
+                        <Button x:Name="btnAgregar" 
+                            Content="Agregar" 
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            Template="{StaticResource ButtonGuardarTemplate}"
+                            Height="36"
+                            Width="80"
+                            Click="btnAgregar_Click"/>
+                        <Button x:Name="btnEditar" 
+                            Content="Editar" 
+                            Style="{StaticResource SuccessButtonStyle}" 
+                            Template="{StaticResource ButtonEditarTemplate}"
+                            Height="36"
+                            Width="80"
+                            Margin="5,0" 
+                            Click="btnEditar_Click"/>
+                        <Button x:Name="btnEliminar" 
+                            Content="Eliminar" 
+                            Style="{StaticResource ErrorButtonStyle}" 
+                            Template="{StaticResource ButtonEliminarTemplate}"
+                            Height="36"
+                            Width="80"
+                            Click="btnEliminar_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- Lista de usuarios más compacta -->
+            <Border Grid.Column="1" 
+                Background="{StaticResource BackgroundPrimaryBrush}" 
+                CornerRadius="8" 
+                Padding="15">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Lista de Imagenes" 
+                         Grid.Row="0" 
+                         Style="{StaticResource SectionTitleStyle}"
+                         Margin="0,0,0,10"/>
+
+                    <DataGrid x:Name="dgImagenes" 
+                         Grid.Row="1" 
+                         Style="{StaticResource DataGridStyle}"
+                         AutoGenerateColumns="False" 
+                         MouseDoubleClick="dgImagenes_MouseDoubleClick"
+                         RowHeight="30"
+                         IsReadOnly="True">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding IdImagen}" Width="50"/>
+                            <DataGridTextColumn Header="Titulo" Binding="{Binding Titulo}" Width="250"/>
+                            
+                            <DataGridTemplateColumn Header="Foto" Width="100">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Border CornerRadius="4" Height="40" Width="50">
+                                            <Border.Background>
+                                                <ImageBrush ImageSource="{Binding Foto}"/>
+                                            </Border.Background>
+                                        </Border>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>
