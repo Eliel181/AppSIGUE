@@ -50,5 +50,10 @@ namespace Views
         {
             MainFrame.Navigate(new Usuarios().obtenerInstancia());
         }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

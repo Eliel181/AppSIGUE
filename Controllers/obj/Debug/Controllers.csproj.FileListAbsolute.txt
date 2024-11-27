@@ -9,3 +9,14 @@ C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.Co
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.CopyComplete
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.dll
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.pdb
+D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Controllers.dll
+D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Controllers.pdb
+D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Entities.dll
+D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Models.dll
+D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Entities.pdb
+D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Models.pdb
+D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.AssemblyReference.cache
+D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controll.01F35609.Up2Date
+D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controllers.dll
+D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controllers.pdb
