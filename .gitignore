@@ -49,4 +49,4 @@ _ReSharper/
 resharper/
 
 # Cadena de Conexion
-Models/ConnectionSQL.cs
+ConnectionSQL.cs
