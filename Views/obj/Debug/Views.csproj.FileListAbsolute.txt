@@ -28,3 +28,9 @@ C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Views.exe
 C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Views.pdb
 C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\Controllers.dll
 C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\Controllers.pdb
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Locaciones.g.cs
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Personas.g.cs
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Locaciones.baml
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Personas.baml
+C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\FontAwesome.WPF.dll
+C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\FontAwesome.WPF.xml

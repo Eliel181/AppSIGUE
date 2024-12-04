@@ -9,3 +9,5 @@ C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.Co
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.CopyComplete
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.dll
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.pdb
+C:\Users\leokg\source\repos\AppSIGUE\Controllers\bin\Debug\FontAwesome.WPF.dll
+C:\Users\leokg\source\repos\AppSIGUE\Controllers\bin\Debug\FontAwesome.WPF.xml

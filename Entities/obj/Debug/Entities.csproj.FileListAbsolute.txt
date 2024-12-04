@@ -4,3 +4,6 @@ C:\Users\leokg\source\repos\AppSIGUE\Entities\obj\Debug\Entities.csproj.Assembly
 C:\Users\leokg\source\repos\AppSIGUE\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
 C:\Users\leokg\source\repos\AppSIGUE\Entities\obj\Debug\Entities.dll
 C:\Users\leokg\source\repos\AppSIGUE\Entities\obj\Debug\Entities.pdb
+C:\Users\leokg\source\repos\AppSIGUE\Entities\bin\Debug\FontAwesome.WPF.dll
+C:\Users\leokg\source\repos\AppSIGUE\Entities\bin\Debug\FontAwesome.WPF.xml
+C:\Users\leokg\source\repos\AppSIGUE\Entities\obj\Debug\Entities.csproj.CopyComplete

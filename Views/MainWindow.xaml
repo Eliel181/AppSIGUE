@@ -154,11 +154,11 @@
                         Content="Usuarios"
                         Click="btnUsuarios_Click"/>
                     <Button Style="{StaticResource MenuButtonStyle}"
-                        x:Name="btnAlumnos"
-                        Content="Alumnos"/>
+                        x:Name="btnPersonas"
+                        Content="Personas" Click="btnPersonas_Click"/>
                     <Button Style="{StaticResource MenuButtonStyle}"
-                        x:Name="btnCursos"
-                        Content="Cursos"/>
+                        x:Name="btnAulas"
+                        Content="Aulas" Click="btnAulas_Click"/>
 
 
 

@@ -7,3 +7,5 @@ C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.csproj.CoreCompileI
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.csproj.CopyComplete
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.dll
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.pdb
+C:\Users\leokg\source\repos\AppSIGUE\Models\bin\Debug\FontAwesome.WPF.dll
+C:\Users\leokg\source\repos\AppSIGUE\Models\bin\Debug\FontAwesome.WPF.xml

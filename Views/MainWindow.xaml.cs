@@ -50,5 +50,15 @@ namespace Views
         {
             MainFrame.Navigate(new Usuarios().obtenerInstancia());
         }
+
+        private void btnPersonas_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Personas().obtenerInstancia());
+        }
+
+        private void btnAulas_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Locaciones().obtenerInstancia());
+        }
     }
 }
