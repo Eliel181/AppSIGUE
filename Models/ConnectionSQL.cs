@@ -12,7 +12,7 @@ namespace Models
         private readonly string connectionString;
         public ConnectionSQL()
         {
-            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\A.P.U_3er_Año\\HIA\\DB\\DB_2024\\DB_AppSIGUE.mdf;Integrated Security=True;Connect Timeout=30";
+            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\LPOO II\\Proyetos\\DataBases\\DB_AppSIGUE.mdf\";Integrated Security=True;Connect Timeout=30";
         }
 
         protected SqlConnection GetConnection()

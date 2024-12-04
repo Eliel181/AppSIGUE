@@ -44,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
     <Compile Include="LocacionController.cs" />
     <Compile Include="PersonaController.cs" />
+=======
+    <Compile Include="ImagenController.cs" />
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioController.cs" />
   </ItemGroup>

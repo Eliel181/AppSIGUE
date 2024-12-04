@@ -152,8 +152,13 @@
                              Style="{StaticResource DataGridStyle}"
                              AutoGenerateColumns="False" 
                              MouseDoubleClick="dgUsuarios_MouseDoubleClick"
+<<<<<<< HEAD
                              RowHeight="30">
 
+=======
+                             RowHeight="30"
+                             IsReadOnly="True">
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="ID" Binding="{Binding IdUsuario}" Width="50"/>
                             <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>

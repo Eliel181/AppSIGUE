@@ -40,6 +40,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -58,6 +59,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Diccionario2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DiccionarioAppSIGUE.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -85,11 +90,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="Pages\Locaciones.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Personas.xaml">
+=======
+    <Page Include="Pages\Imagenes.xaml">
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -102,11 +111,16 @@
     <Compile Include="Mensaje.xaml.cs">
       <DependentUpon>Mensaje.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Pages\Locaciones.xaml.cs">
       <DependentUpon>Locaciones.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Personas.xaml.cs">
       <DependentUpon>Personas.xaml</DependentUpon>
+=======
+    <Compile Include="Pages\Imagenes.xaml.cs">
+      <DependentUpon>Imagenes.xaml</DependentUpon>
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
     </Compile>
     <Compile Include="Pages\Usuarios.xaml.cs">
       <DependentUpon>Usuarios.xaml</DependentUpon>
@@ -156,6 +170,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\equipo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
