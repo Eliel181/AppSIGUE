@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\HIA\\proyectos\\AppSIGUE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\pages\\imagenes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\pages\\imagenes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\pages\\especificacionestecnicas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\pages\\especificacionestecnicas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\pages\\especificacionestecnicas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\pages\\especificacionestecnicas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\pages\\imagenes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\pages\\imagenes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\pages\\usuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\pages\\usuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\diccionario2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\diccionario2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\diccionarioappsigue.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\diccionarioappsigue.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\pages\\usuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\pages\\usuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|d:\\hia\\proyectos\\appsigue\\views\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{41B654F4-8114-4A0B-A72F-101FA3C5D27A}|Views\\Views.csproj|solutionrelative:views\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,100 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Imagenes.xaml",
-              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Imagenes.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\Imagenes.xaml",
-              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Imagenes.xaml",
-              "RelativeToolTip": "Views\\Pages\\Imagenes.xaml",
+              "Title": "EspecificacionesTecnicas.xaml",
+              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\EspecificacionesTecnicas.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\EspecificacionesTecnicas.xaml",
+              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\EspecificacionesTecnicas.xaml",
+              "RelativeToolTip": "Views\\Pages\\EspecificacionesTecnicas.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T15:29:00.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Diccionario2.xaml",
-              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Diccionario2.xaml",
-              "RelativeDocumentMoniker": "Views\\Diccionario2.xaml",
-              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Diccionario2.xaml",
-              "RelativeToolTip": "Views\\Diccionario2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T15:28:26.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DiccionarioAppSIGUE.xaml",
-              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\DiccionarioAppSIGUE.xaml",
-              "RelativeDocumentMoniker": "Views\\DiccionarioAppSIGUE.xaml",
-              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\DiccionarioAppSIGUE.xaml",
-              "RelativeToolTip": "Views\\DiccionarioAppSIGUE.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T15:28:06.466Z",
+              "WhenOpened": "2024-11-28T21:29:44.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Usuarios.xaml",
-              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Usuarios.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\Usuarios.xaml",
-              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Usuarios.xaml",
-              "RelativeToolTip": "Views\\Pages\\Usuarios.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T15:27:04.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuarios.xaml.cs",
-              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Usuarios.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\Usuarios.xaml.cs",
-              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Usuarios.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\Usuarios.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAMwCQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:26:30.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Imagenes.xaml.cs",
               "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Imagenes.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Pages\\Imagenes.xaml.cs",
               "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\Imagenes.xaml.cs",
               "RelativeToolTip": "Views\\Pages\\Imagenes.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:26:23.791Z",
+              "WhenOpened": "2024-11-28T21:26:20.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\App.xaml",
-              "RelativeDocumentMoniker": "Views\\App.xaml",
-              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\App.xaml",
-              "RelativeToolTip": "Views\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T15:25:59.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\App.config",
-              "RelativeDocumentMoniker": "Views\\App.config",
-              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\App.config",
-              "RelativeToolTip": "Views\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-27T15:25:55.385Z",
+              "DocumentIndex": 1,
+              "Title": "EspecificacionesTecnicas.xaml.cs",
+              "DocumentMoniker": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\EspecificacionesTecnicas.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\EspecificacionesTecnicas.xaml.cs",
+              "ToolTip": "D:\\HIA\\proyectos\\AppSIGUE\\Views\\Pages\\EspecificacionesTecnicas.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\EspecificacionesTecnicas.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwC8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T21:26:19.086Z",
               "EditorCaption": ""
             }
           ]

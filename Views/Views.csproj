@@ -87,6 +87,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\EspecificacionesTecnicas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Imagenes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -99,6 +103,9 @@
   <ItemGroup>
     <Compile Include="Mensaje.xaml.cs">
       <DependentUpon>Mensaje.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EspecificacionesTecnicas.xaml.cs">
+      <DependentUpon>EspecificacionesTecnicas.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Imagenes.xaml.cs">
       <DependentUpon>Imagenes.xaml</DependentUpon>

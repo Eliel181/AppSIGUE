@@ -61,3 +61,5 @@ D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.csproj.Up2Date
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.exe
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.pdb
+D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Pages\EspecificacionesTecnicas.g.cs
+D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Pages\EspecificacionesTecnicas.baml
