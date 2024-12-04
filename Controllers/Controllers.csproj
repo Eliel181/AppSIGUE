@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <Compile Include="LocacionController.cs" />
     <Compile Include="PersonaController.cs" />
 =======
