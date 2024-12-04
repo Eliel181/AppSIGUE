@@ -28,6 +28,14 @@ C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Views.exe
 C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Views.pdb
 C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\Controllers.dll
 C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\Controllers.pdb
+<<<<<<< HEAD
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Locaciones.g.cs
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Personas.g.cs
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Locaciones.baml
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\Pages\Personas.baml
+C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\FontAwesome.WPF.dll
+C:\Users\leokg\source\repos\AppSIGUE\Views\bin\Debug\FontAwesome.WPF.xml
+=======
 D:\HIA\proyectos\AppSIGUE\Views\bin\Debug\Views.exe.config
 D:\HIA\proyectos\AppSIGUE\Views\bin\Debug\Views.exe
 D:\HIA\proyectos\AppSIGUE\Views\bin\Debug\Views.pdb
@@ -61,5 +69,9 @@ D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.csproj.Up2Date
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.exe
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Views.pdb
+<<<<<<< HEAD
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Pages\EspecificacionesTecnicas.g.cs
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\Pages\EspecificacionesTecnicas.baml
+=======
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
+>>>>>>> main

@@ -9,6 +9,10 @@ C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.Co
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.CopyComplete
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.dll
 C:\Users\leokg\source\repos\AppSIGUE\Controllers\obj\Debug\Controllers.pdb
+<<<<<<< HEAD
+C:\Users\leokg\source\repos\AppSIGUE\Controllers\bin\Debug\FontAwesome.WPF.dll
+C:\Users\leokg\source\repos\AppSIGUE\Controllers\bin\Debug\FontAwesome.WPF.xml
+=======
 D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Controllers.dll
 D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Controllers.pdb
 D:\HIA\proyectos\AppSIGUE\Controllers\bin\Debug\Entities.dll
@@ -20,3 +24,4 @@ D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controllers.csproj.CoreCompileIn
 D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controll.01F35609.Up2Date
 D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controllers.dll
 D:\HIA\proyectos\AppSIGUE\Controllers\obj\Debug\Controllers.pdb
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a

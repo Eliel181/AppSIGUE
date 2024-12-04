@@ -93,7 +93,7 @@ namespace Views.Pages
                         Mensaje mensaje = new Mensaje();
                         mensaje.MensajePersonalizado("Agregar", "Usuario " + usuario.Apellido + " agregado con Exito");
                         mensaje.ShowDialog();
-                        //MessageBox.Show("Estudiante agregado con Exito!!");
+                       
                     }
                 }
                 catch (Exception ex)

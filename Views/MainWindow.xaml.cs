@@ -51,9 +51,20 @@ namespace Views
             MainFrame.Navigate(new Usuarios().obtenerInstancia());
         }
 
+<<<<<<< HEAD
+        private void btnPersonas_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Personas().obtenerInstancia());
+        }
+
+        private void btnAulas_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Locaciones().obtenerInstancia());
+=======
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.DragMove();
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
         }
     }
 }

@@ -4,17 +4,34 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
+C:\Users\leokg\source\repos\AppSIGUE\Views\obj\Debug\
+=======
 D:\HIA\proyectos\AppSIGUE\Views\obj\Debug\
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
 Views
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
+C:\Users\leokg\source\repos\AppSIGUE\Views\App.xaml
+7225126431
+
+102099816693
+17-1101779580
+DiccionarioAppSIGUE.xaml;Login.xaml;MainWindow.xaml;Mensaje.xaml;Pages\Locaciones.xaml;Pages\Personas.xaml;Pages\Usuarios.xaml;
+=======
 D:\HIA\proyectos\AppSIGUE\Views\App.xaml
 8313643142
 
 101893794552
 1795264290
+<<<<<<< HEAD
 Diccionario2.xaml;DiccionarioAppSIGUE.xaml;Login.xaml;MainWindow.xaml;Mensaje.xaml;Pages\EspecificacionesTecnicas.xaml;Pages\Imagenes.xaml;Pages\Usuarios.xaml;
+=======
+Diccionario2.xaml;DiccionarioAppSIGUE.xaml;Login.xaml;MainWindow.xaml;Mensaje.xaml;Pages\Imagenes.xaml;Pages\Usuarios.xaml;
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
+>>>>>>> main
 
 False
 
