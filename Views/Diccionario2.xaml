@@ -1,0 +1,394 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--#region COLORES-->
+    <RadialGradientBrush x:Key="ColorFondoVentanas">
+        <GradientStop Color="#FF35384C" Offset="1"/>
+        <GradientStop Color="#FF0B2292" Offset="0"/>
+    </RadialGradientBrush>
+
+    <!--color borde ventanas-->
+
+    <LinearGradientBrush x:Key="ColorBordeVentana" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#3498DB"/>
+        <GradientStop Color="#FF0A9E13" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="ColorTituloVentana" StartPoint="0.5,0">
+        <GradientStop Color="Gold"/>
+        <GradientStop Color="LimeGreen" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!--Efecto de sobra para el label TItulo-->
+    <DropShadowEffect x:Key="EfectoSombra" ShadowDepth="0" Color="White" BlurRadius="5"/>
+
+    <!--COlor para el boton carrgar foto-->
+    <LinearGradientBrush x:Key="ColorBoton" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF969E0A" Offset="0"/>
+        <GradientStop Color="#FF0A9E13" Offset="0.4"/>
+        <GradientStop Color="#FF0A869E" Offset="0.6"/>
+        <GradientStop Color="#FF078C4C" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!--#endregion COLORES-->
+
+    <!--#region ESTILOS-->
+
+    <!--Estilo para la ventana principal-->
+    <Style x:Key="FondoVentanaStyle" TargetType="{x:Type Rectangle}">
+        <Setter Property="RadiusX" Value="15"/>
+        <Setter Property="RadiusY" Value="15"/>
+        <Setter Property="Fill" Value="{StaticResource ColorFondoVentanas}"/>
+        <Setter Property="Stroke" Value="{StaticResource ColorBordeVentana}"/>
+        <Setter Property="StrokeThickness" Value="5"/>
+        <!--ancho del borde-->
+    </Style>
+
+    <!--Estilo para la etiqueta label-->
+    <Style x:Key="LabelTituloStyle" TargetType="Label">
+        <Setter Property="Foreground" Value="{StaticResource ColorTituloVentana}"/>
+        <Setter Property="FontSize" Value="29"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontFamily" Value="Roboto"/>
+        <Setter Property="Effect" Value="{StaticResource EfectoSombra}"/>
+    </Style>
+
+    <Style x:Key="ButtonPictureStyle" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="80"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Height" Value="35"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+
+
+    <!--estilos para los label de los distintos campos-->
+    <Style x:Key="LabelCamposStyle" TargetType="{x:Type Label}">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="TextBoxCampoStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="Background" Value="{x:Null}"/>
+        <!--no tiene fondo-->
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="160"/>
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="HorizontalAlignment" Value="center"/>
+        <Setter Property="VerticalAlignment" Value="center"/>
+        <Setter Property="BorderThickness" Value="0 0 0 2"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="ComboBoxCampoStyle" TargetType="{x:Type ComboBox}">
+        <Setter Property="Background" Value="{x:Null}"/>
+        <!--no tiene fondo-->
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="160"/>
+        <Setter Property="HorizontalAlignment" Value="center"/>
+        <Setter Property="VerticalAlignment" Value="center"/>
+        <Setter Property="BorderThickness" Value="0 0 0 2"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="ComboBoxItemCampoStyle" TargetType="{x:Type ComboBoxItem}">
+        <Setter Property="Background" Value="{x:Null}"/>
+        <!--no tiene fondo-->
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="160"/>
+        <Setter Property="HorizontalAlignment" Value="center"/>
+        <Setter Property="VerticalAlignment" Value="center"/>
+        <Setter Property="BorderThickness" Value="0 0 0 2"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
+
+    <!--estilo para el campo password-->
+    <Style x:Key="PassswordBoxCampoStyle" TargetType="{x:Type PasswordBox}">
+        <Setter Property="Background" Value="{x:Null}"/>
+        <!--no tiene fondo-->
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="175"/>
+        <Setter Property="HorizontalAlignment" Value="center"/>
+        <Setter Property="VerticalAlignment" Value="center"/>
+        <Setter Property="BorderThickness" Value="0 0 0 2"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="ButtonCrudStyle" TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+
+    <!--<Style x:Key="DataGridStyle" TargetType="{x:Type DataGridRow}">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>-->
+
+    <Style x:Key="DatePickerFehca" TargetType="{x:Type DatePicker}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+
+    <!--#endregion ESTILOS-->
+
+    <!--#region TEMPLATE-->
+
+    <!--#region TEMPLATE BUTTON CARGAR IMAGEN-->
+    <ControlTemplate x:Key="ButtonPictureTemplate" TargetType="{x:Type Button}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="35*"/>
+            </Grid.RowDefinitions>
+            <Rectangle x:Name="BgRectangle" Grid.RowSpan="3" Grid.ColumnSpan="3" RadiusX="5" RadiusY="5">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF989893"/>
+                        <GradientStop Color="#FF8CD7C7" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="SmRectangle" Grid.Row="1" Grid.Column="1" RadiusX="7" RadiusY="7">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFE0E0DC"/>
+                        <GradientStop Color="#FFB4DCD3" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <ContentPresenter Grid.ColumnSpan="3" Grid.RowSpan="3" Height="auto" Width="auto" VerticalAlignment="Center" HorizontalAlignment="Center" RecognizesAccessKey="True"/>
+
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="BgRectangle" Property="Fill" Value="#FFE0E0DC"/>
+                <Setter TargetName="SmRectangle" Property="Fill" Value="#FFE0E0DC"/>
+                <Setter Property="Foreground" Value="Black"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter TargetName="SmRectangle" Property="Opacity" Value="0.35"/>
+                <Setter TargetName="BgRectangle" Property="Effect" Value="{StaticResource EfectoSombra}"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!--#endregion TEMPLATE BUTTON CARGAR IMAGEN-->
+
+    <!--#region TEMPLATE BUTTON GUARDAR-->
+    <ControlTemplate x:Key="ButtonGuardarTemplate" TargetType="Button">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="35*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle x:Name="BgRectangle" Grid.RowSpan="3" Grid.ColumnSpan="3" RadiusX="5" RadiusY="5">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4DF012"/>
+                        <GradientStop Color="#FF00C3A7" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="SmRectangle" Grid.Row="1" Grid.Column="1" RadiusX="7" RadiusY="7">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFA1F781"/>
+                        <GradientStop Color="#CC77E2D2" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <ContentPresenter Grid.ColumnSpan="3" Grid.RowSpan="3" Height="auto" Width="auto" VerticalAlignment="Center" HorizontalAlignment="Center" RecognizesAccessKey="True"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="BgRectangle" Property="Fill" Value="#FFA1F781"/>
+                <Setter TargetName="SmRectangle" Property="Fill" Value="#FFA1F781"/>
+                <Setter Property="Foreground" Value="Black"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!--#endregion TEMPLATE BUTTON GUARDAR-->
+
+    <!--#region TEMPLATE BUTTON EDITAR-->
+    <ControlTemplate x:Key="ButtonEditarTemplate" TargetType="Button">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="35*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle x:Name="BgRectangle" Grid.RowSpan="3" Grid.ColumnSpan="3" RadiusX="5" RadiusY="5">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3BE35"/>
+                        <GradientStop Color="#FFE0FF00" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="SmRectangle" Grid.Row="1" Grid.Column="1" RadiusX="7" RadiusY="7">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3D68A"/>
+                        <GradientStop Color="#FFEDFF6A" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <ContentPresenter Grid.ColumnSpan="3" Grid.RowSpan="3" Height="auto" Width="auto" VerticalAlignment="Center" HorizontalAlignment="Center" RecognizesAccessKey="True"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="BgRectangle" Property="Fill" Value="#FFF3D68A"/>
+                <Setter TargetName="SmRectangle" Property="Fill" Value="#FFF3D68A"/>
+                <Setter Property="Foreground" Value="Black"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!--#endregion TEMPLATE BUTTON EDITAR-->
+
+    <!--#region TEMPLATE BUTTON ELIMINAR-->
+    <ControlTemplate x:Key="ButtonEliminarTemplate" TargetType="Button">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="35*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle x:Name="BgRectangle" Grid.RowSpan="3" Grid.ColumnSpan="3" RadiusX="5" RadiusY="5">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFC6311F"/>
+                        <GradientStop Color="#FFCE0E7D" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="SmRectangle" Grid.Row="1" Grid.Column="1" RadiusX="7" RadiusY="7">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFC85A4C"/>
+                        <GradientStop Color="#FFD97FB3" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <ContentPresenter Grid.ColumnSpan="3" Grid.RowSpan="3" Height="auto" Width="auto" VerticalAlignment="Center" HorizontalAlignment="Center" RecognizesAccessKey="True"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="BgRectangle" Property="Fill" Value="#FFC85A4C"/>
+                <Setter TargetName="SmRectangle" Property="Fill" Value="#FFC85A4C"/>
+                <Setter Property="Foreground" Value="Black"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!--#endregion TEMPLATE BUTTON ELIMINAR-->
+
+    <!--#region TEMPLATE BUTTON REPORTE-->
+    <ControlTemplate x:Key="ButtonReporteTemplate" TargetType="Button">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="35*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle x:Name="BgRectangle" Grid.RowSpan="3" Grid.ColumnSpan="3" RadiusX="5" RadiusY="5">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF1F59C6"/>
+                        <GradientStop Color="#FF12B8C5" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="SmRectangle" Grid.Row="1" Grid.Column="1" RadiusX="7" RadiusY="7">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF768FBD"/>
+                        <GradientStop Color="#FFBCDBDD" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <ContentPresenter Grid.ColumnSpan="3" Grid.RowSpan="3" Height="auto" Width="auto" VerticalAlignment="Center" HorizontalAlignment="Center" RecognizesAccessKey="True"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="BgRectangle" Property="Fill" Value="#FF768FBD"/>
+                <Setter TargetName="SmRectangle" Property="Fill" Value="#FF768FBD"/>
+                <Setter Property="Foreground" Value="Black"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!--#endregion TEMPLATE BUTTON REPORTE-->
+
+    <!--#region PLANTILLA BOTON CERRAR-->
+    <ControlTemplate x:Key="CerrarButtonTemplate" TargetType="{x:Type Button}">
+        <Grid>
+            <Ellipse x:Name="BgElipse" Width="30" Height="30" Fill="Red" Stroke="White" StrokeThickness="2"/>
+            <ContentPresenter Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="BgElipse" Property="Fill" Value="Black"/>
+                <Setter Property="Cursor" Value="Hand"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+    <!--#endregion PLANTILLA BOTON CERRAR-->
+
+
+    <!--#endregion TEMPLATE-->
+
+
+</ResourceDictionary>

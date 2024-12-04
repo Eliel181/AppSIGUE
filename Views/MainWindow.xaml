@@ -9,7 +9,9 @@
         Height="900" 
         Width="1500"
         WindowStartupLocation="CenterScreen"
-        Background="{DynamicResource BackgroundSecondaryBrush}">
+        Background="{DynamicResource BackgroundSecondaryBrush}"
+        WindowStyle="None"
+        AllowsTransparency="True" MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <Window.Resources>
         <!-- Estilo para los botones del menú -->
         <Style x:Key="MenuButtonStyle" TargetType="Button">

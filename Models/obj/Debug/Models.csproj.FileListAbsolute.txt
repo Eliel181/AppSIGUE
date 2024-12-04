@@ -7,5 +7,17 @@ C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.csproj.CoreCompileI
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.csproj.CopyComplete
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.dll
 C:\Users\leokg\source\repos\AppSIGUE\Models\obj\Debug\Models.pdb
+<<<<<<< HEAD
 C:\Users\leokg\source\repos\AppSIGUE\Models\bin\Debug\FontAwesome.WPF.dll
 C:\Users\leokg\source\repos\AppSIGUE\Models\bin\Debug\FontAwesome.WPF.xml
+=======
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Models.dll
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Models.pdb
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Entities.dll
+D:\HIA\proyectos\AppSIGUE\Models\bin\Debug\Entities.pdb
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.csproj.Up2Date
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.dll
+D:\HIA\proyectos\AppSIGUE\Models\obj\Debug\Models.pdb
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a

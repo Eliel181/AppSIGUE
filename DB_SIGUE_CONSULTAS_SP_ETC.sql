@@ -94,7 +94,7 @@ CREATE PROCEDURE sp_ListarUsuarios
 AS
 BEGIN
     -- Seleccionar todos los usuarios
-    SELECT IdUsuario, Nombre, Apellido, LoginName, Rol, Estado, Foto
+    SELECT IdUsuario, Nombre, Apellido, LoginName, Password, Rol, Estado, Foto
     FROM Usuarios;
 
     RETURN 0; 
