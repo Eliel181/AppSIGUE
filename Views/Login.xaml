@@ -79,13 +79,9 @@
                         VerticalAlignment="Center">
 
                 <!-- Botón cerrar -->
-
-                <!-- Botón cerrar -->
-
-                <!-- Botón cerrar -->
-
-
+                
                 <TextBlock Text="Bienvenido" 
+                           TextAlignment="Center"
                            Foreground="{StaticResource TextPrimaryBrush}" 
                            FontSize="28" 
                            FontWeight="Bold" 
@@ -101,7 +97,7 @@
                     <TextBox x:Name="txtUsuario" BorderThickness="0"
                              Padding="10"
                              Background="Transparent"
-                             Height="40" GotKeyboardFocus="txtUsuario_GotKeyboardFocus" LostKeyboardFocus="txtUsuario_LostKeyboardFocus"/>
+                             Height="40" GotKeyboardFocus="txtUsuario_GotKeyboardFocus" Foreground="White" LostKeyboardFocus="txtUsuario_LostKeyboardFocus"/>
                 </Border>
 
                 <!-- Contraseña -->
@@ -114,7 +110,7 @@
                     <PasswordBox x:Name="psbPassword" BorderThickness="0"
                                 Padding="10"
                                 Background="Transparent"
-                                Height="40" GotKeyboardFocus="psbPassword_GotKeyboardFocus" LostKeyboardFocus="psbPassword_LostKeyboardFocus"/>
+                                Height="40" GotKeyboardFocus="psbPassword_GotKeyboardFocus" Foreground="White" LostKeyboardFocus="psbPassword_LostKeyboardFocus"/>
                 </Border>
 
 

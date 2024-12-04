@@ -9,12 +9,21 @@ Views
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
+C:\Users\leokg\source\repos\AppSIGUE\Views\App.xaml
+7225126431
+
+1117728075
+17-1101779580
+DiccionarioAppSIGUE.xaml;Login.xaml;MainWindow.xaml;Mensaje.xaml;Pages\Locaciones.xaml;Pages\Personas.xaml;Pages\Usuarios.xaml;
+=======
 D:\HIA\proyectos\AppSIGUE\Views\App.xaml
 71426724143
 
 101052735209
 1795264290
 Diccionario2.xaml;DiccionarioAppSIGUE.xaml;Login.xaml;MainWindow.xaml;Mensaje.xaml;Pages\Imagenes.xaml;Pages\Usuarios.xaml;
+>>>>>>> 8ad2148e9b5bd8024d9c17c0ef498b380a79fd6a
 
 True
 
